@@ -118,3 +118,12 @@ Just Make It Rather Simple For Now
 : To Be Divided In Different Apps
 
 """
+
+# Kanban / Progress / Dump
+
+"""
+
+Now, That Generalization Is Done
+Focusing On Auth
+
+"""

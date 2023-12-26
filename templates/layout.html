@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>{{page_title}} - PAM</title>
+		<link
+			rel="icon"
+			href="{% static 'images/icon.png' %}"
+			type="image/x-icon"
+		/>
+	</head>
+	<body>
+		{% include "navigation.html" %} {% block content %}
+		<p></p>
+		{% endblock content %}
+	</body>
+</html>
